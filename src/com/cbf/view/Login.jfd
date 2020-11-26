@@ -1,0 +1,126 @@
+JFDML JFormDesigner: "6.0.2.0.116" Java: "1.8.0_152-release" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+			name: "this"
+			"title": "登录"
+			"defaultCloseOperation": 2
+			"iconImage": sfield com.jformdesigner.model.FormObject NULL_VALUE
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+				name: "panel1"
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label7"
+					"text": "密码"
+					"icon": new com.jformdesigner.model.SwingIcon( 0, "/008.png" )
+					"font": new com.jformdesigner.model.SwingDerivedFont( null, 0, 2, false )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 50
+					"y": 115
+					"width": 105
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label6"
+					"text": "用户名"
+					"icon": new com.jformdesigner.model.SwingIcon( 0, "/007.png" )
+					"font": new com.jformdesigner.model.SwingDerivedFont( null, 0, 1, false )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 50
+					"y": 50
+					"width": 105
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "userName"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 170
+					"y": 50
+					"width": 220
+					"height": 35
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "password"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 220
+					"height": 35
+					"x": 170
+					"y": 120
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "button1"
+					"text": "确定"
+					"font": new java.awt.Font( "Microsoft YaHei UI", 1, 16 )
+					addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "button1ActionPerformed", true ) )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 135
+					"y": 285
+					"width": 90
+					"height": 40
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "button2"
+					"text": "取消"
+					"font": new java.awt.Font( "Microsoft YaHei UI", 1, 16 )
+					addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "button2ActionPerformed", true ) )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 335
+					"y": 285
+					"width": 90
+					"height": 40
+				} )
+				add( new FormComponent( "javax.swing.JComboBox" ) {
+					name: "userType"
+					"model": new javax.swing.DefaultComboBoxModel {
+						selectedItem: "员工"
+						addElement( "员工" )
+						addElement( "管理员" )
+					}
+					"font": new java.awt.Font( "Microsoft YaHei UI", 0, 14 )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 170
+					"y": 200
+					"width": 135
+					"height": 35
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "button3"
+					"text": "点错了 "
+					addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "button3ActionPerformed", true ) )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 465
+					"y": 15
+					"width": 80
+					"height": 25
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "button5"
+					"text": "忘记密码？"
+					"font": new com.jformdesigner.model.SwingDerivedFont( null, 0, 1, false )
+					addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "button5ActionPerformed", true ) )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 420
+					"y": 125
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label5"
+					"text": "text"
+					"icon": new com.jformdesigner.model.SwingIcon( 0, "/02.jpg" )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 0
+					"y": 0
+					"width": 560
+					"height": 375
+				} )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 0
+				"y": 0
+				"width": 560
+				"height": 375
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 100, 45 )
+			"size": new java.awt.Dimension( 560, 405 )
+		} )
+	}
+}
+

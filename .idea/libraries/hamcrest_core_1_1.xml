@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="hamcrest-core-1.1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../salaryProject/lib/hamcrest-core-1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../salaryProject/lib/junit-4.13.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../salaryProject/lib/log4j-1.2.17 (1).jar!/" />
+      <root url="jar://$PROJECT_DIR$/../salaryProject/lib/mysql-connector-java-8.0.11.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../salaryProject/lib/hamcrest-core-1.1.jar!/" />
+    </SOURCES>
+  </library>
+</component>

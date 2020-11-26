@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="javax.mail-1.5.4">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../salaryProject/lib/email/javax.mail-1.5.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../salaryProject/lib/email/miglayout-core.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../salaryProject/lib/email/miglayout-swing.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../salaryProject/lib/email/miglayout-core-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../salaryProject/lib/email/miglayout-swing-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../salaryProject/lib/email/miglayout-core-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../salaryProject/lib/email/miglayout-swing-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

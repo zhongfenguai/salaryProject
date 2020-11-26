@@ -1,0 +1,237 @@
+JFDML JFormDesigner: "6.0.2.0.116" Java: "1.8.0_152-release" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+			name: "this"
+			"title": "修改工资"
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+				name: "panel1"
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label1"
+					"text": "员工编号"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 155
+					"y": 25
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "staffId"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 230
+					"y": 20
+					"width": 165
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label2"
+					"text": "基本工资"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 40
+					"y": 65
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "basicSalary"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 165
+					"height": 25
+					"x": 110
+					"y": 65
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label3"
+					"text": "交通补助"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 310
+					"y": 70
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "transportation"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 165
+					"height": 25
+					"x": 380
+					"y": 65
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label5"
+					"text": "岗位工资"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 40
+					"y": 110
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "postSalary"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 165
+					"height": 25
+					"x": 110
+					"y": 110
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label6"
+					"text": "社保代缴"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 310
+					"y": 155
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "socialSecurityPayment"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 165
+					"height": 25
+					"x": 380
+					"y": 155
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label7"
+					"text": "工龄工资"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 40
+					"y": 155
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "senioritySalary"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 165
+					"height": 25
+					"x": 110
+					"y": 155
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "button1"
+					"text": "确定"
+					addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "button1ActionPerformed", true ) )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 135
+					"y": 410
+					"width": 65
+					"height": 30
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "button2"
+					"text": "取消"
+					addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "button2ActionPerformed", true ) )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 385
+					"y": 410
+					"width": 65
+					"height": 30
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "individualTaxPayment"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 165
+					"height": 25
+					"x": 380
+					"y": 110
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label10"
+					"text": "个税代缴"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 310
+					"y": 110
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label8"
+					"text": "通讯补助"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 40
+					"y": 220
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "communication"
+					addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "userNoActionPerformed", true ) )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 110
+					"y": 215
+					"width": 165
+					"height": 25
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label9"
+					"text": "住房公积金"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 310
+					"y": 220
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "housingProvidentFund"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 380
+					"y": 220
+					"width": 165
+					"height": 25
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label11"
+					"text": "实发工资"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 40
+					"y": 275
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "realSalary"
+					addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "userNoActionPerformed", true ) )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 165
+					"x": 110
+					"y": 275
+					"height": 25
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label12"
+					"text": "总工资"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 130
+					"y": 345
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "totalSalary"
+					addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "userNoActionPerformed", true ) )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 165
+					"height": 25
+					"x": 210
+					"y": 340
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label4"
+					"text": "年份"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 330
+					"y": 280
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "year"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 380
+					"y": 275
+					"width": 75
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label13"
+					"text": "月份"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 465
+					"y": 280
+				} )
+				add( new FormComponent( "javax.swing.JComboBox" ) {
+					name: "month"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 505
+					"y": 275
+					"width": 87
+				} )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 0
+				"y": 0
+				"height": 485
+				"width": 615
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 80, 25 )
+			"size": new java.awt.Dimension( 615, 515 )
+		} )
+	}
+}

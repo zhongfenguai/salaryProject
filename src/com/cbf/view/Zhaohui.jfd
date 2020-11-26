@@ -1,0 +1,114 @@
+JFDML JFormDesigner: "6.0.2.0.116" Java: "1.8.0_152-release" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+			name: "this"
+			"title": "找回密码"
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+				name: "panel1"
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "button1"
+					"text": "确认"
+					addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "button1ActionPerformed", true ) )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 165
+					"y": 285
+					"width": 70
+					"height": 40
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label2"
+					"text": "新密码"
+					"font": &SwingDerivedFont0 new com.jformdesigner.model.SwingDerivedFont( null, 0, 2, false )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 100
+					"y": 95
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "password2"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 200
+					"y": 155
+					"width": 130
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label4"
+					"text": "确认新密码"
+					"font": new com.jformdesigner.model.SwingDerivedFont( null, 0, 2, false )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 100
+					"y": 155
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "password"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 200
+					"y": 90
+					"width": 130
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "button2"
+					"text": "取消"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 305
+					"y": 285
+					"width": 70
+					"height": 40
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "phone"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 200
+					"y": 210
+					"width": 130
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "button3"
+					"text": "发送手机验证码"
+					addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "button3ActionPerformed", true ) )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 370
+					"y": 200
+					"height": 45
+					"width": 145
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label1"
+					"text": "密保手机"
+					"font": new com.jformdesigner.model.SwingDerivedFont( null, 0, 2, false )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 100
+					"y": 210
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label3"
+					"text": "用户名"
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 43
+					"height": 19
+					"x": 100
+					"y": 45
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "username2"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 130
+					"height": 25
+					"x": 200
+					"y": 45
+				} )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 0
+				"y": 0
+				"height": 425
+				"width": 615
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 80, 25 )
+			"size": new java.awt.Dimension( 615, 455 )
+		} )
+	}
+}
